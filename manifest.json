@@ -1,0 +1,32 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Unredo mod lets you undo your last actions.",
+        "name": "Unredo",
+        "uuid": "c78e9f51-fd70-4871-877a-2064ec0b41ee",
+        "version": [0, 0, 1],
+        "min_engine_version": [ 1, 14, 0 ]
+    },
+    "modules": [
+        {
+            "description": "API Test",  
+            "uuid": "e18b73b7-549e-460c-9713-5eec2a476d27",
+            "type": "script",
+            "language": "javascript",
+            "version": [0, 0, 1],
+            "entry": "scripts/Main.js"
+        }
+    ],
+    "capabilities": ["script_eval"],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.11.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0-beta"
+        }
+    ]
+  
+}
