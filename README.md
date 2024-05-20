@@ -20,6 +20,7 @@ Product of Second City Software
     - Items dropped from explosions do not despawn.
 
 ## Future Features
+- The redo implementation.
 - Smarter systems for detecting who did what explosion.
 - Ways to undo commands.
 - Get block IDs.
